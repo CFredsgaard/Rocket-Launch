@@ -6,19 +6,19 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Rocket Launch</title>
 </head>
-<body>
+<body class="body-state1">
     <!-- Left div with buttons -->
     <div class="left">
         <!-- State 1: launch button-->
         <div class="state1">
             <h1>Rocket Launch</h1>
-            <a href="javascript:void('')" class="button" onclick="startCountDown();">Launch Rocket</a>
+            <a href="javascript:void('')" class="button" onclick="changeState(2);">Launch Rocket</a>
         </div>
 
         <!-- State 2: count down -->
         <div class="state2">
             <h1 id="countdown">10</h1>
-            <a href="javascript:void('')" class="button" onclick="abort();">Abort</a>
+            <a href="javascript:void('')" class="button" onclick="changeState(1);">Abort</a>
         </div>
 
         <!-- State 3: lift off -->
@@ -29,13 +29,13 @@
         <!-- State 4: Well Done -->
         <div class="state4">
             <h1>Well Done!</h1>
-            <a href="javascript:void('')" class="button" onclick="doItAgain();">Do it again</a>
+            <a href="javascript:void('')" class="button" onclick="changeState(1);">Do it again</a>
         </div>
 
         <!-- State 5: Boom -->
         <div class="state5">
             <h1>Ohhhh NOOOO!!!</h1>
-            <a href="javascript:void('')" class="button" onclick="doItAgain();">Try again</a>
+            <a href="javascript:void('')" class="button" onclick="changeState(1);">Try again</a>
         </div>
 
 
