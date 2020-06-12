@@ -54,9 +54,22 @@ body.body-state5 .state5{display: block;}
     bottom: 20px;
     width: 20px;
     height: 100px;
-    transition: bottom 1s;
+    transition: bottom 10s;
 }
 
-.rocket.flying{
-    bottom: 100%;
+/* 
+state1 = launch button
+The rocket doesn't fly down and land when user chooses try again, it just pops back up */
+body.body-state1 .rocket{
+    transition: none;
+}
+
+/* 
+state3 = lift off
+state4 = succes
+this way the rocket makes it to the top insted of stoping halfway and landing
+*/
+body.body-state3 .rocket,
+body.body-state4 .rocket{
+    bottom: 200%;
 }
