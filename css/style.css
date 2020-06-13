@@ -1,4 +1,4 @@
-/* styles related to the left panel on the page, the side with the commands on */
+/* styles related to the left panel on the page, the side with the button on */
 .left{
     background-color: blueviolet;
     position: fixed;
@@ -10,6 +10,9 @@
 
 a.button{
     background-color: aqua;
+    position: absolute;
+    padding: 5em 5em;
+    
 }
 
 .state1,
