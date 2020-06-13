@@ -22,7 +22,7 @@ var changeState = function (state) {
                 changeState(3); //Lift off
             };
 
-        },500);
+        },1000);
         
     } else if (state == 3) {
         var succes = setTimeout(function () {
