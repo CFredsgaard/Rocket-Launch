@@ -1,4 +1,4 @@
-/* styles related to the left panel on the page, the side with the commands on */
+/* styles related to the left panel on the page, the side with the button on */
 .left{
     background-color: blueviolet;
     position: fixed;
@@ -6,10 +6,25 @@
     height: 100%;
     top: 0;
     left: 0;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 3em;
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 3em;
 }
 
 a.button{
     background-color: aqua;
+    position: sticky;
+    padding: 2em 5em;
+    border-radius: 2em;
+    font-family: 'MuseoModerno', cursive;
+    text-decoration: none;
+
+    
 }
 
 .state1,
