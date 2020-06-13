@@ -19,13 +19,14 @@ h1{
 a.button{
     background-color: aqua;
     position: sticky;
-    padding: 2em 5em;
+    padding: 1.5em 1.5em;
     border-radius: 2em;
     font-family: 'MuseoModerno', cursive;
     text-decoration: none;
-
-    
+    color:  blueviolet;
+    font-size: 1.5em;   
 }
+
 
 .state1,
 .state2,
