@@ -10,16 +10,17 @@
 }
 
 h1{
-    margin-bottom: 3em;
+    margin-bottom: 10vh;
     color: white;
     font-family: 'MuseoModerno', cursive;
-    font-size: 3em;
+    font-size: 4vw;
+
 }
 
 a.button{
     background-color: aqua;
     position: sticky;
-    padding: 1.5em 1.5em;
+    padding: 1.5vw 1.5vh;
     border-radius: 2em;
     font-family: 'MuseoModerno', cursive;
     text-decoration: none;
