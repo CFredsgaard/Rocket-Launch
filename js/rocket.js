@@ -18,11 +18,12 @@ var changeState = function (state) {
         timer = setInterval(function () {
             countdownNumber = countdownNumber -1;
             document.getElementById('countdown').innerHTML = countdownNumber;
+            
             if (countdownNumber <= 0){
                 changeState(3); //Lift off
             };
 
-        },1000);
+        },300);
         
     } else if (state == 3) {
         var succes = setTimeout(function () {
