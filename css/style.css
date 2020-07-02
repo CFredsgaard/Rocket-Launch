@@ -45,7 +45,7 @@ body.body-state5 .state5{display: block;}
 
 /* Styles related to the right panel on the page, the side with the rocket on */
 .right{
-    background-color: skyblue;
+    background-color: rgb(152, 219, 245);
     position: fixed;
     width: 70%;
     height: 100%;
@@ -95,9 +95,9 @@ body.body-state5 .rocket{
     background-image: url('../img/State_4.png');
     width: 556px;
     height: 417px;
-    margin-left: -278;
+    margin-left: -278px;
+    margin-bottom: -10px;
 }
-
 
 /* 
 state3 = lift off

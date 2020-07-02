@@ -23,7 +23,7 @@ var changeState = function (state) {
                 changeState(3); //Lift off
             };
 
-        },300);
+        },300)
         
     } else if (state == 3) {
         var succes = setTimeout(function () {
@@ -43,4 +43,6 @@ var changeState = function (state) {
         }, 2000);
 
     };
+
+
 }
